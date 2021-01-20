@@ -273,7 +273,7 @@ module.exports = kconfig = async (kill, message) => {
     break
 	
 	    case 'samu330':
-    await kill.reply(from, 'Hola!😀\n\nTe gustaria apoyarme?\n\nSolo unete a mi grupo de WhatsApp: https://chat.whatsapp.com/ELeHAmX3P6j1xy1qNRjEXR\n\nO puedes suscribirte a mi canal para saber como instalar un Bot: https://www.youtube.com/channel/UCqPXxG2ZdDe_ugOqMHDRMqg\n\nO seamos amigos en facebook: https://facebook.com/tupapi.samu330', id)
+    await kill.reply(from, 'Hola!😀\n\id)
     break	
 			
 		case 'about':
