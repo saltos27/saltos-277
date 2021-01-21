@@ -272,7 +272,7 @@ module.exports = kconfig = async (kill, message) => {
     await kill.reply(from, 'Algunos videos del canal de mi bro DEIVID\n\nWhatsApp ANONYMOUS V.06 oFc 100% inmune\n\nhttps://youtu.be/tOE_ywldS_Q\n\nComo modificar un WA prt-1\n\nhttps://youtu.be/WdWsvY3xGPc\n\nWhAtsApp BusSines Golden/13\n\nhttps://youtu.be/JqSHAWlGhDY\n\nNumero virtual +48 método efectivo\n\nhttps://youtu.be/7GOss7AaJ88\n\nNumero virtual +1 EE.Uu (ANONYMOUS DEIVID)\n\nhttps://youtu.be/D1G6hI1mLs4\n\nCreando con pixelLab (ANONYMOUS DEIVID)\n\nhttps://youtu.be/so1y1g-MPZ4\n\nSu video mas reciente:\n\nhttps://youtu.be/hy4od9BT-tA\n\nEspero y lo apoyes🤗', id)
     break
 	
-	    case 'samu330':
+	    case 'saltos':
     await kill.reply(from, 'Hola!😀\n\id)
     break	
 			
@@ -485,7 +485,7 @@ module.exports = kconfig = async (kill, message) => {
 			
 		case 'legiao':
 			if (isGroupMsg) return kill.reply(from, 'Puede ser que este grupo no permita enlaces, así que use ese comando en el PV, ¿de acuerdo?', id)
-			kill.sendLinkWithAutoPreview(from, 'https://wa.me/+529984907794', 'Genial que te hayas interesado en contactar a samu!\nAqui esta su whats!', id)
+			kill.sendLinkWithAutoPreview(from, 'https://wa.me/+593968190017', 'Genial que te hayas interesado en contactar a saltos!\nAqui esta su whats!', id)
 			break
 			
 			
@@ -554,7 +554,7 @@ module.exports = kconfig = async (kill, message) => {
             if (matn == 1) {
             const nime = await axios.get(`http://api.i-tech.id/anim/anime?key=${techapi}`)
 			console.log(nime.data)
-			await kill.sendFileFromUrl(from, nime.data.result, ``, `Veo que eres un hombre / mujer de cultura.`, id)
+			await kill.sendFileFromUrl(from, nime.data.result, ``, `Veo que eres alguien de cultura.`, id)
             } else if (matn == 2) {
             const nime2 = await randomNimek('anime')
 			console.log(nime2.data)
@@ -1221,7 +1221,7 @@ module.exports = kconfig = async (kill, message) => {
 			
 
         case 'girl':
-    	    var items = ["garota adolescente", "saycay", "alina nikitina", "belle delphine", "teen girl", "teen cute", "japanese girl", "garota bonita oriental", "oriental girl", "korean girl", "chinese girl", "e-girl", "teen egirl", "brazilian teen girl", "pretty teen girl", "korean teen girl", "garota adolescente bonita", "menina adolescente bonita", "egirl", "cute girl"];
+    	    var items = ["garota adolescente", "saycay", "alina nikitina", "belle delphine","mujer anime", "staryukki", "teen girl", "teen cute", "japanese girl", "garota bonita oriental", "oriental girl", "korean girl", "chinese girl", "e-girl", "teen egirl", "brazilian teen girl", "pretty teen girl", "korean teen girl", "garota adolescente bonita", "menina adolescente bonita", "egirl", "cute girl"];
     	    var cewe = items[Math.floor(Math.random() * items.length)];
 			console.log(cewe)
 			var girl = "https://api.fdci.se/rep.php?gambar=" + cewe;
@@ -1746,7 +1746,7 @@ module.exports = kconfig = async (kill, message) => {
             const check = await kill.inviteInfo(gplk)
             if (!isLink) return kill.reply(from, 'Link errado', id)
             if (tGr.length > 6) return kill.reply(from, 'Jaja estoy en el máximo de grupos, lo siento.', id)
-            if (check.size < minMem) return kill.reply(from, 'Solo puedo trabajar en grupos de más de 30 personas.', id)
+            if (check.size < minMem) return kill.reply(from, 'Solo puedo trabajar en grupos de más de 300 personas.', id)
             if (check.status === 200) {
                 await kill.joinGroupViaLink(gplk).then(() => kill.reply(from, 'Entrando al grupo...'))
             } else {
@@ -1815,7 +1815,7 @@ module.exports = kconfig = async (kill, message) => {
 			
         case 'loli':
 			const onefive = Math.floor(Math.random() * 145) + 1
-			kill.sendFileFromUrl(from, `https://media.publit.io/file/Twintails/${onefive}.jpg`, 'loli.jpg', 'Veo que eres un hombre / mujer de cultura.', id)
+			kill.sendFileFromUrl(from, `https://media.publit.io/file/Twintails/${onefive}.jpg`, 'loli.jpg', 'Veo que eres alguien de cultura (cuidado el fbi).', id)
             break
 			
 
@@ -2173,7 +2173,7 @@ module.exports = kconfig = async (kill, message) => {
                 if (!isNsfw) return kill.reply(from, mess.error.Ac, id)
 				if (selnum == 1) {
 					const hentai1 = await axios.get(`http://api.i-tech.id/anim/hentai?key=${techapi}`)
-					await kill.sendFileFromUrl(from, hentai1.data.result, ``, `Safadenho e.e, bueno, espero que te guste el que elegí para ti...`, id)
+					await kill.sendFileFromUrl(from, hentai1.data.result, ``, `Safadenho e.e, bueno, espero que te guste el que elegí para ti UwU`, id)
 				} else if (selnum == 2) {
 					const hentai = await randomNimek('hentai')
 					await kill.sendFileFromUrl(from, hentai, ``, 'Ui ui, hentai essa hora?', id)
@@ -2202,7 +2202,7 @@ module.exports = kconfig = async (kill, message) => {
 					await kill.sendFileFromUrl(from, hentai2.data.url, ``, 'Espero que curta o hentai e.e', id)
 				} else if (selnum == 3) {
 					const hentai3 = await axios.get(`http://api.i-tech.id/anim/hentai?key=${techapi}`)
-					await kill.sendFileFromUrl(from, hentai3.data.result, ``, `Safadenho e.e, bueno, espero que te guste el que elegí para ti...`, id)
+					await kill.sendFileFromUrl(from, hentai3.data.result, ``, `Safadenho e.e, bueno, espero que te guste el que elegí para ti UwU`, id)
 				} else if (selnum == 4) {
 					const hentai4 = await axios.get('https://nekos.life/api/v2/img/hentai')
 					await kill.sendFileFromUrl(from, hentai4.data.url, ``, 'Hentaizinho bom...', id)
@@ -2224,11 +2224,11 @@ module.exports = kconfig = async (kill, message) => {
             if (double == 1) {
             const yuri = await axios.get(`https://api.i-tech.id/anim/yuri?key=${techapi}`)
 			console.log(yuri.data)
-            await kill.sendFileFromUrl(from, yuri.data.result, ``, ``, id)
+            await kill.sendFileFromUrl(from, yuri.data.result, ``, `Safadenho e.e, bueno, espero que te guste el que elegí para ti UwU`, id)
             } else if (double == 2) {
             const yuri1 = await randomNimek('yuri')
 			console.log(yuri1)
-            await kill.sendFileFromUrl(from, yuri1, ``, ``, id)
+            await kill.sendFileFromUrl(from, yuri1, ``, 'Ui ui, hentai essa hora?', id)
 			}
             break 
 
